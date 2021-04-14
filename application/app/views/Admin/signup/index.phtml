@@ -1,0 +1,34 @@
+Sign up using this form
+</h2>
+
+<?php echo $this->tag->form("admin/signup/register"); ?>
+
+    <p>
+        <label for="name">
+            名前
+        </label>
+
+        <?php echo $this->tag->textField("name"); ?>
+    </p>
+
+    <p>
+        <label for="email">
+            E-Mail
+        </label>
+
+        <?php echo $this->tag->textField("email"); ?>
+    </p>
+
+    <p>
+        <label for="password">
+            パスワード
+        </label>
+
+        <?php echo $this->tag->textField("password"); ?>
+    </p>
+
+    <p>
+        <?php echo $this->tag->submitButton("登録"); ?>
+    </p>
+
+</form>

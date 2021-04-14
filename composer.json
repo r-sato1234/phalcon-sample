@@ -1,0 +1,10 @@
+{
+    "name": "phalcon/app",
+    "description": "Phalcon application",
+    "require-dev": {
+        "phalcon/devtools": "^4.0"
+    },
+    "require": {
+        "sidroberts/phalcon-seeder": "^2.0"
+    }
+}
